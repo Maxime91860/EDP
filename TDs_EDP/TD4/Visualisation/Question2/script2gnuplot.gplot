@@ -1,0 +1,10 @@
+set encoding iso_8859_1
+set terminal postscript eps color enhanced 16
+set output "PLOT/debit.pdf"
+set title "Evolution du d\351bit au cours du temps"
+set xlabel "Temps (interval)"
+set ylabel "D\351bit en MB/sec"
+set grid xtics ytics 
+#set logscale y
+set key left above
+plot "r1.txt" using 2:4 title "D\351bit" with linespoints lc rgb "dark-green"
