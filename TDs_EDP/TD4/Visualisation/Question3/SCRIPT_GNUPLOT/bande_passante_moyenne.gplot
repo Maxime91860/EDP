@@ -1,0 +1,17 @@
+set encoding iso_8859_1
+set terminal postscript eps color enhanced 16
+set output "PLOT/bande_passante_moyenne.pdf"
+set title "Bande passante moyenne pour chaque ex\351cution"
+set xlabel "Ex\351cution"
+set ylabel "Bande passante moyenne en MB / seconde (resp time)"
+#set grid xtics ytics 
+set xrange [0.5:8.5]
+set xtics 1
+#set yrange [0:0.6]
+#set logscale y
+set boxwidth 0.50 relative
+set style fill transparent solid 0.5 noborde
+set key left above
+set grid
+set xtics ("4k" 1, "8k" 2,"16k" 3,"32k" 4, "64k" 5, "128k" 6, "256k" 7,"512k" 8, "1M" 9)
+plot "RESULTATS/bande_pass_stats.txt" using 1:2 with boxes lc "green" notitle

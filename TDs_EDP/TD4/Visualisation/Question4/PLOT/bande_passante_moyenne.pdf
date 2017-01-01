@@ -1,7 +1,7 @@
 %!PS-Adobe-2.0 EPSF-2.0
-%%Title: PLOT/tps_resp_moyen.pdf
+%%Title: PLOT/bande_passante_moyenne.pdf
 %%Creator: gnuplot 5.0 patchlevel 3
-%%CreationDate: Thu Dec 29 18:19:33 2016
+%%CreationDate: Thu Dec 29 18:16:39 2016
 %%DocumentFonts: (atend)
 %%BoundingBox: 50 50 410 302
 %%EndComments
@@ -508,13 +508,13 @@ systemdict /pdfmark known not {
   userdict /pdfmark systemdict /cleartomark get put
 } if
 SDict begin [
-  /Title (PLOT/tps_resp_moyen.pdf)
+  /Title (PLOT/bande_passante_moyenne.pdf)
   /Subject (gnuplot plot)
   /Creator (gnuplot 5.0 patchlevel 3)
   /Author (max)
 %  /Producer (gnuplot)
 %  /Keywords ()
-  /CreationDate (Thu Dec 29 18:19:33 2016)
+  /CreationDate (Thu Dec 29 18:16:39 2016)
   /DOCINFO pdfmark
 end
 } ifelse
@@ -564,19 +564,19 @@ LCb setrgbcolor
 0.500 UL
 LTa
 LCa setrgbcolor
+784 512 M
+6127 0 V
+stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+784 512 M
+63 0 V
+6064 0 R
+-63 0 V
+stroke
 688 512 M
-6223 0 V
-stroke
-1.000 UL
-LTb
-LCb setrgbcolor
-688 512 M
-63 0 V
-6160 0 R
--63 0 V
-stroke
-592 512 M
-[ [(Helvetica) 160.0 0.0 true true 0 ( 0)]
+[ [(Helvetica) 160.0 0.0 true true 0 ( 20)]
 ] -53.3 MRshow
 1.000 UL
 LTb
@@ -584,19 +584,19 @@ LCb setrgbcolor
 0.500 UL
 LTa
 LCa setrgbcolor
-688 962 M
-6223 0 V
+784 1090 M
+6127 0 V
 stroke
 1.000 UL
 LTb
 LCb setrgbcolor
-688 962 M
+784 1090 M
 63 0 V
-6160 0 R
+6064 0 R
 -63 0 V
 stroke
-592 962 M
-[ [(Helvetica) 160.0 0.0 true true 0 ( 2)]
+688 1090 M
+[ [(Helvetica) 160.0 0.0 true true 0 ( 40)]
 ] -53.3 MRshow
 1.000 UL
 LTb
@@ -604,19 +604,19 @@ LCb setrgbcolor
 0.500 UL
 LTa
 LCa setrgbcolor
-688 1411 M
-6223 0 V
+784 1668 M
+6127 0 V
 stroke
 1.000 UL
 LTb
 LCb setrgbcolor
-688 1411 M
+784 1668 M
 63 0 V
-6160 0 R
+6064 0 R
 -63 0 V
 stroke
-592 1411 M
-[ [(Helvetica) 160.0 0.0 true true 0 ( 4)]
+688 1668 M
+[ [(Helvetica) 160.0 0.0 true true 0 ( 60)]
 ] -53.3 MRshow
 1.000 UL
 LTb
@@ -624,19 +624,19 @@ LCb setrgbcolor
 0.500 UL
 LTa
 LCa setrgbcolor
-688 1861 M
-6223 0 V
+784 2246 M
+6127 0 V
 stroke
 1.000 UL
 LTb
 LCb setrgbcolor
-688 1861 M
+784 2246 M
 63 0 V
-6160 0 R
+6064 0 R
 -63 0 V
 stroke
-592 1861 M
-[ [(Helvetica) 160.0 0.0 true true 0 ( 6)]
+688 2246 M
+[ [(Helvetica) 160.0 0.0 true true 0 ( 80)]
 ] -53.3 MRshow
 1.000 UL
 LTb
@@ -644,19 +644,19 @@ LCb setrgbcolor
 0.500 UL
 LTa
 LCa setrgbcolor
-688 2311 M
-6223 0 V
+784 2825 M
+6127 0 V
 stroke
 1.000 UL
 LTb
 LCb setrgbcolor
-688 2311 M
+784 2825 M
 63 0 V
-6160 0 R
+6064 0 R
 -63 0 V
 stroke
-592 2311 M
-[ [(Helvetica) 160.0 0.0 true true 0 ( 8)]
+688 2825 M
+[ [(Helvetica) 160.0 0.0 true true 0 ( 100)]
 ] -53.3 MRshow
 1.000 UL
 LTb
@@ -664,19 +664,19 @@ LCb setrgbcolor
 0.500 UL
 LTa
 LCa setrgbcolor
-688 2760 M
-6223 0 V
+784 3403 M
+6127 0 V
 stroke
 1.000 UL
 LTb
 LCb setrgbcolor
-688 2760 M
+784 3403 M
 63 0 V
-6160 0 R
+6064 0 R
 -63 0 V
 stroke
-592 2760 M
-[ [(Helvetica) 160.0 0.0 true true 0 ( 10)]
+688 3403 M
+[ [(Helvetica) 160.0 0.0 true true 0 ( 120)]
 ] -53.3 MRshow
 1.000 UL
 LTb
@@ -684,19 +684,19 @@ LCb setrgbcolor
 0.500 UL
 LTa
 LCa setrgbcolor
-688 3210 M
-6223 0 V
+784 3981 M
+6127 0 V
 stroke
 1.000 UL
 LTb
 LCb setrgbcolor
-688 3210 M
+784 3981 M
 63 0 V
-6160 0 R
+6064 0 R
 -63 0 V
 stroke
-592 3210 M
-[ [(Helvetica) 160.0 0.0 true true 0 ( 12)]
+688 3981 M
+[ [(Helvetica) 160.0 0.0 true true 0 ( 140)]
 ] -53.3 MRshow
 1.000 UL
 LTb
@@ -704,59 +704,19 @@ LCb setrgbcolor
 0.500 UL
 LTa
 LCa setrgbcolor
-688 3660 M
-6223 0 V
+784 4559 M
+6127 0 V
 stroke
 1.000 UL
 LTb
 LCb setrgbcolor
-688 3660 M
+784 4559 M
 63 0 V
-6160 0 R
+6064 0 R
 -63 0 V
 stroke
-592 3660 M
-[ [(Helvetica) 160.0 0.0 true true 0 ( 14)]
-] -53.3 MRshow
-1.000 UL
-LTb
-LCb setrgbcolor
-0.500 UL
-LTa
-LCa setrgbcolor
-688 4109 M
-6223 0 V
-stroke
-1.000 UL
-LTb
-LCb setrgbcolor
-688 4109 M
-63 0 V
-6160 0 R
--63 0 V
-stroke
-592 4109 M
-[ [(Helvetica) 160.0 0.0 true true 0 ( 16)]
-] -53.3 MRshow
-1.000 UL
-LTb
-LCb setrgbcolor
-0.500 UL
-LTa
-LCa setrgbcolor
 688 4559 M
-6223 0 V
-stroke
-1.000 UL
-LTb
-LCb setrgbcolor
-688 4559 M
-63 0 V
-6160 0 R
--63 0 V
-stroke
-592 4559 M
-[ [(Helvetica) 160.0 0.0 true true 0 ( 18)]
+[ [(Helvetica) 160.0 0.0 true true 0 ( 160)]
 ] -53.3 MRshow
 1.000 UL
 LTb
@@ -764,18 +724,18 @@ LCb setrgbcolor
 0.500 UL
 LTa
 LCa setrgbcolor
-1310 512 M
+1397 512 M
 0 4047 V
 stroke
 1.000 UL
 LTb
 LCb setrgbcolor
-1310 512 M
+1397 512 M
 0 63 V
 0 3984 R
 0 -63 V
 stroke
-1310 352 M
+1397 352 M
 [ [(Helvetica) 160.0 0.0 true true 0 ( 1)]
 ] -53.3 MCshow
 1.000 UL
@@ -784,18 +744,18 @@ LCb setrgbcolor
 0.500 UL
 LTa
 LCa setrgbcolor
-2555 512 M
+2622 512 M
 0 4047 V
 stroke
 1.000 UL
 LTb
 LCb setrgbcolor
-2555 512 M
+2622 512 M
 0 63 V
 0 3984 R
 0 -63 V
 stroke
-2555 352 M
+2622 352 M
 [ [(Helvetica) 160.0 0.0 true true 0 ( 2)]
 ] -53.3 MCshow
 1.000 UL
@@ -804,18 +764,18 @@ LCb setrgbcolor
 0.500 UL
 LTa
 LCa setrgbcolor
-3799 512 M
+3848 512 M
 0 4047 V
 stroke
 1.000 UL
 LTb
 LCb setrgbcolor
-3799 512 M
+3848 512 M
 0 63 V
 0 3984 R
 0 -63 V
 stroke
-3799 352 M
+3848 352 M
 [ [(Helvetica) 160.0 0.0 true true 0 ( 3)]
 ] -53.3 MCshow
 1.000 UL
@@ -824,18 +784,18 @@ LCb setrgbcolor
 0.500 UL
 LTa
 LCa setrgbcolor
-5044 512 M
+5073 512 M
 0 4047 V
 stroke
 1.000 UL
 LTb
 LCb setrgbcolor
-5044 512 M
+5073 512 M
 0 63 V
 0 3984 R
 0 -63 V
 stroke
-5044 352 M
+5073 352 M
 [ [(Helvetica) 160.0 0.0 true true 0 ( 4)]
 ] -53.3 MCshow
 1.000 UL
@@ -844,18 +804,18 @@ LCb setrgbcolor
 0.500 UL
 LTa
 LCa setrgbcolor
-6289 512 M
+6298 512 M
 0 4047 V
 stroke
 1.000 UL
 LTb
 LCb setrgbcolor
-6289 512 M
+6298 512 M
 0 63 V
 0 3984 R
 0 -63 V
 stroke
-6289 352 M
+6298 352 M
 [ [(Helvetica) 160.0 0.0 true true 0 ( 5)]
 ] -53.3 MCshow
 1.000 UL
@@ -864,11 +824,11 @@ LCb setrgbcolor
 1.000 UL
 LTB
 LCb setrgbcolor
-688 4559 N
-688 512 L
-6223 0 V
+784 4559 N
+784 512 L
+6127 0 V
 0 4047 V
--6223 0 V
+-6127 0 V
 Z stroke
 1.000 UP
 1.000 UL
@@ -877,27 +837,26 @@ LCb setrgbcolor
 LCb setrgbcolor
 128 2535 M
 currentpoint gsave translate -270 rotate 0 0 moveto
-[ [(Helvetica) 160.0 0.0 true true 0 (Temps de réponse moyen en seconde \(resp time\))]
+[ [(Helvetica) 160.0 0.0 true true 0 (Bande passante moyenne en MB / seconde \(resp time\))]
 ] -53.3 MCshow
 grestore
 LTb
 LCb setrgbcolor
-3799 112 M
+3847 112 M
 [ [(Helvetica) 160.0 0.0 true true 0 (Exécution)]
 ] -53.3 MCshow
 LTb
 LCb setrgbcolor
-3799 4799 M
-[ [(Helvetica) 160.0 0.0 true true 0 (Temps de réponse moyen pour chaque exécution)]
+3847 4799 M
+[ [(Helvetica) 160.0 0.0 true true 0 (Bande passante moyenne pour chaque exécution)]
 ] -53.3 MCshow
 % Begin plot #1
 1.000 UL
 LTb
-0.00 0.00 1.00 C 0.500 999 512 623 2 BoxColFill
-0.500 2244 512 623 46 BoxColFill
-0.500 3488 512 624 3620 BoxColFill
-0.500 4733 512 623 143 BoxColFill
-0.500 5978 512 623 190 BoxColFill
+0.00 1.00 0.00 C 0.500 1090 512 614 505 BoxColFill
+0.500 2316 512 613 1294 BoxColFill
+0.500 3541 512 614 1580 BoxColFill
+0.500 4767 512 613 3953 BoxColFill
 % End plot #1
 2.000 UL
 LTb
@@ -905,11 +864,11 @@ LCb setrgbcolor
 1.000 UL
 LTB
 LCb setrgbcolor
-688 4559 N
-688 512 L
-6223 0 V
+784 4559 N
+784 512 L
+6127 0 V
 0 4047 V
--6223 0 V
+-6127 0 V
 Z stroke
 1.000 UP
 1.000 UL

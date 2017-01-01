@@ -1,7 +1,7 @@
 %!PS-Adobe-2.0 EPSF-2.0
 %%Title: PLOT/tps_resp_moyen.pdf
 %%Creator: gnuplot 5.0 patchlevel 3
-%%CreationDate: Thu Dec 29 18:19:33 2016
+%%CreationDate: Fri Dec 30 22:13:41 2016
 %%DocumentFonts: (atend)
 %%BoundingBox: 50 50 410 302
 %%EndComments
@@ -514,7 +514,7 @@ SDict begin [
   /Author (max)
 %  /Producer (gnuplot)
 %  /Keywords ()
-  /CreationDate (Thu Dec 29 18:19:33 2016)
+  /CreationDate (Fri Dec 30 22:13:41 2016)
   /DOCINFO pdfmark
 end
 } ifelse
@@ -576,7 +576,7 @@ LCb setrgbcolor
 -63 0 V
 stroke
 592 512 M
-[ [(Helvetica) 160.0 0.0 true true 0 ( 0)]
+[ [(Helvetica) 160.0 0.0 true true 0 ( 15)]
 ] -53.3 MRshow
 1.000 UL
 LTb
@@ -584,19 +584,19 @@ LCb setrgbcolor
 0.500 UL
 LTa
 LCa setrgbcolor
-688 962 M
+688 1090 M
 6223 0 V
 stroke
 1.000 UL
 LTb
 LCb setrgbcolor
-688 962 M
+688 1090 M
 63 0 V
 6160 0 R
 -63 0 V
 stroke
-592 962 M
-[ [(Helvetica) 160.0 0.0 true true 0 ( 2)]
+592 1090 M
+[ [(Helvetica) 160.0 0.0 true true 0 ( 20)]
 ] -53.3 MRshow
 1.000 UL
 LTb
@@ -604,19 +604,19 @@ LCb setrgbcolor
 0.500 UL
 LTa
 LCa setrgbcolor
-688 1411 M
+688 1668 M
 6223 0 V
 stroke
 1.000 UL
 LTb
 LCb setrgbcolor
-688 1411 M
+688 1668 M
 63 0 V
 6160 0 R
 -63 0 V
 stroke
-592 1411 M
-[ [(Helvetica) 160.0 0.0 true true 0 ( 4)]
+592 1668 M
+[ [(Helvetica) 160.0 0.0 true true 0 ( 25)]
 ] -53.3 MRshow
 1.000 UL
 LTb
@@ -624,19 +624,19 @@ LCb setrgbcolor
 0.500 UL
 LTa
 LCa setrgbcolor
-688 1861 M
+688 2246 M
 6223 0 V
 stroke
 1.000 UL
 LTb
 LCb setrgbcolor
-688 1861 M
+688 2246 M
 63 0 V
 6160 0 R
 -63 0 V
 stroke
-592 1861 M
-[ [(Helvetica) 160.0 0.0 true true 0 ( 6)]
+592 2246 M
+[ [(Helvetica) 160.0 0.0 true true 0 ( 30)]
 ] -53.3 MRshow
 1.000 UL
 LTb
@@ -644,19 +644,19 @@ LCb setrgbcolor
 0.500 UL
 LTa
 LCa setrgbcolor
-688 2311 M
+688 2825 M
 6223 0 V
 stroke
 1.000 UL
 LTb
 LCb setrgbcolor
-688 2311 M
+688 2825 M
 63 0 V
 6160 0 R
 -63 0 V
 stroke
-592 2311 M
-[ [(Helvetica) 160.0 0.0 true true 0 ( 8)]
+592 2825 M
+[ [(Helvetica) 160.0 0.0 true true 0 ( 35)]
 ] -53.3 MRshow
 1.000 UL
 LTb
@@ -664,19 +664,19 @@ LCb setrgbcolor
 0.500 UL
 LTa
 LCa setrgbcolor
-688 2760 M
+688 3403 M
 6223 0 V
 stroke
 1.000 UL
 LTb
 LCb setrgbcolor
-688 2760 M
+688 3403 M
 63 0 V
 6160 0 R
 -63 0 V
 stroke
-592 2760 M
-[ [(Helvetica) 160.0 0.0 true true 0 ( 10)]
+592 3403 M
+[ [(Helvetica) 160.0 0.0 true true 0 ( 40)]
 ] -53.3 MRshow
 1.000 UL
 LTb
@@ -684,59 +684,19 @@ LCb setrgbcolor
 0.500 UL
 LTa
 LCa setrgbcolor
-688 3210 M
+688 3981 M
 6223 0 V
 stroke
 1.000 UL
 LTb
 LCb setrgbcolor
-688 3210 M
+688 3981 M
 63 0 V
 6160 0 R
 -63 0 V
 stroke
-592 3210 M
-[ [(Helvetica) 160.0 0.0 true true 0 ( 12)]
-] -53.3 MRshow
-1.000 UL
-LTb
-LCb setrgbcolor
-0.500 UL
-LTa
-LCa setrgbcolor
-688 3660 M
-6223 0 V
-stroke
-1.000 UL
-LTb
-LCb setrgbcolor
-688 3660 M
-63 0 V
-6160 0 R
--63 0 V
-stroke
-592 3660 M
-[ [(Helvetica) 160.0 0.0 true true 0 ( 14)]
-] -53.3 MRshow
-1.000 UL
-LTb
-LCb setrgbcolor
-0.500 UL
-LTa
-LCa setrgbcolor
-688 4109 M
-6223 0 V
-stroke
-1.000 UL
-LTb
-LCb setrgbcolor
-688 4109 M
-63 0 V
-6160 0 R
--63 0 V
-stroke
-592 4109 M
-[ [(Helvetica) 160.0 0.0 true true 0 ( 16)]
+592 3981 M
+[ [(Helvetica) 160.0 0.0 true true 0 ( 45)]
 ] -53.3 MRshow
 1.000 UL
 LTb
@@ -756,7 +716,7 @@ LCb setrgbcolor
 -63 0 V
 stroke
 592 4559 M
-[ [(Helvetica) 160.0 0.0 true true 0 ( 18)]
+[ [(Helvetica) 160.0 0.0 true true 0 ( 50)]
 ] -53.3 MRshow
 1.000 UL
 LTb
@@ -764,18 +724,18 @@ LCb setrgbcolor
 0.500 UL
 LTa
 LCa setrgbcolor
-1310 512 M
+1034 512 M
 0 4047 V
 stroke
 1.000 UL
 LTb
 LCb setrgbcolor
-1310 512 M
+1034 512 M
 0 63 V
 0 3984 R
 0 -63 V
 stroke
-1310 352 M
+1034 352 M
 [ [(Helvetica) 160.0 0.0 true true 0 ( 1)]
 ] -53.3 MCshow
 1.000 UL
@@ -784,18 +744,18 @@ LCb setrgbcolor
 0.500 UL
 LTa
 LCa setrgbcolor
-2555 512 M
+1725 512 M
 0 4047 V
 stroke
 1.000 UL
 LTb
 LCb setrgbcolor
-2555 512 M
+1725 512 M
 0 63 V
 0 3984 R
 0 -63 V
 stroke
-2555 352 M
+1725 352 M
 [ [(Helvetica) 160.0 0.0 true true 0 ( 2)]
 ] -53.3 MCshow
 1.000 UL
@@ -804,18 +764,18 @@ LCb setrgbcolor
 0.500 UL
 LTa
 LCa setrgbcolor
-3799 512 M
+2417 512 M
 0 4047 V
 stroke
 1.000 UL
 LTb
 LCb setrgbcolor
-3799 512 M
+2417 512 M
 0 63 V
 0 3984 R
 0 -63 V
 stroke
-3799 352 M
+2417 352 M
 [ [(Helvetica) 160.0 0.0 true true 0 ( 3)]
 ] -53.3 MCshow
 1.000 UL
@@ -824,18 +784,18 @@ LCb setrgbcolor
 0.500 UL
 LTa
 LCa setrgbcolor
-5044 512 M
+3108 512 M
 0 4047 V
 stroke
 1.000 UL
 LTb
 LCb setrgbcolor
-5044 512 M
+3108 512 M
 0 63 V
 0 3984 R
 0 -63 V
 stroke
-5044 352 M
+3108 352 M
 [ [(Helvetica) 160.0 0.0 true true 0 ( 4)]
 ] -53.3 MCshow
 1.000 UL
@@ -844,19 +804,99 @@ LCb setrgbcolor
 0.500 UL
 LTa
 LCa setrgbcolor
-6289 512 M
+3800 512 M
 0 4047 V
 stroke
 1.000 UL
 LTb
 LCb setrgbcolor
-6289 512 M
+3800 512 M
 0 63 V
 0 3984 R
 0 -63 V
 stroke
-6289 352 M
+3800 352 M
 [ [(Helvetica) 160.0 0.0 true true 0 ( 5)]
+] -53.3 MCshow
+1.000 UL
+LTb
+LCb setrgbcolor
+0.500 UL
+LTa
+LCa setrgbcolor
+4491 512 M
+0 4047 V
+stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+4491 512 M
+0 63 V
+0 3984 R
+0 -63 V
+stroke
+4491 352 M
+[ [(Helvetica) 160.0 0.0 true true 0 ( 6)]
+] -53.3 MCshow
+1.000 UL
+LTb
+LCb setrgbcolor
+0.500 UL
+LTa
+LCa setrgbcolor
+5182 512 M
+0 4047 V
+stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+5182 512 M
+0 63 V
+0 3984 R
+0 -63 V
+stroke
+5182 352 M
+[ [(Helvetica) 160.0 0.0 true true 0 ( 7)]
+] -53.3 MCshow
+1.000 UL
+LTb
+LCb setrgbcolor
+0.500 UL
+LTa
+LCa setrgbcolor
+5874 512 M
+0 4047 V
+stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+5874 512 M
+0 63 V
+0 3984 R
+0 -63 V
+stroke
+5874 352 M
+[ [(Helvetica) 160.0 0.0 true true 0 ( 8)]
+] -53.3 MCshow
+1.000 UL
+LTb
+LCb setrgbcolor
+0.500 UL
+LTa
+LCa setrgbcolor
+6565 512 M
+0 4047 V
+stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+6565 512 M
+0 63 V
+0 3984 R
+0 -63 V
+stroke
+6565 352 M
+[ [(Helvetica) 160.0 0.0 true true 0 ( 9)]
 ] -53.3 MCshow
 1.000 UL
 LTb
@@ -893,11 +933,15 @@ LCb setrgbcolor
 % Begin plot #1
 1.000 UL
 LTb
-0.00 0.00 1.00 C 0.500 999 512 623 2 BoxColFill
-0.500 2244 512 623 46 BoxColFill
-0.500 3488 512 624 3620 BoxColFill
-0.500 4733 512 623 143 BoxColFill
-0.500 5978 512 623 190 BoxColFill
+0.00 0.00 1.00 C 0.500 861 512 347 2315 BoxColFill
+0.500 1552 512 347 507 BoxColFill
+0.500 2244 512 346 462 BoxColFill
+0.500 2935 512 347 750 BoxColFill
+0.500 3627 512 346 980 BoxColFill
+0.500 4318 512 347 1252 BoxColFill
+0.500 5010 512 346 2560 BoxColFill
+0.500 5701 512 347 3856 BoxColFill
+0.500 6392 512 347 125 BoxColFill
 % End plot #1
 2.000 UL
 LTb

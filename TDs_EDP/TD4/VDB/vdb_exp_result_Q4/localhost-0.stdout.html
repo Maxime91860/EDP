@@ -1,0 +1,150 @@
+<pre>
+stdout/stderr for slave=localhost-0
+
+16:26:19.138 16:26:19.137 SlaveJvm execution parameter:  '-m localhost'
+16:26:19.138 16:26:19.138 SlaveJvm execution parameter:  '-n localhost-10-161216-16.26.18.490'
+16:26:19.139 16:26:19.138 SlaveJvm execution parameter:  '-l localhost-0'
+16:26:19.139 16:26:19.138 SlaveJvm execution parameter:  '-p 5570'
+16:26:19.139 16:26:19.138 SlaveJvm positional parameter: 'SlaveJvm'
+16:26:19.220 16:26:19.219 successfully connected to master localhost
+16:26:19.220 16:26:19.219 Connection to localhost using port 5570 successful
+16:26:19.531 16:26:19.530 ticks_per_second: 100
+16:26:19.537 16:26:19.537 execute(): ls -l /home/amiration/Bureau/MASTER_2_CHPS/Bloc2/EP_Evaluation_performances/TD_EP/TP4/vdbench50403/vdb_exp_file_Q4
+16:26:19.621 16:26:19.621 Configuration interpretation took 0,08 seconds
+
+Link to Run Definitions:         <A HREF="#_1691931598">SD_format For loops: threads=2 iorate=max</A>
+                                 <A HREF="#_1463397659">r1 For loops: xfersize=128k threads=1</A>
+                                                             <A HREF="#_194245722">threads=2</A>
+                                                             <A HREF="#_512706214">threads=3</A>
+                                                             <A HREF="#_1348946934">threads=4</A>
+
+16:26:19.809 16:26:19.809 Beginning of run setup
+16:26:19.810 16:26:19.809 **********************
+16:26:19.810 
+16:26:19.810 
+16:26:19.810 16:26:19.809 File '/var/log/messages' does not exist. Monitoring bypassed
+16:26:19.810 16:26:19.809 File '/var/log/messages.1' does not exist. Monitoring bypassed
+16:26:19.914 16:26:19.913 Opening sd=s1,lun=/home/amiration/Bureau/MASTER_2_CHPS/Bloc2/EP_Evaluation_performances/TD_EP/TP4/vdbench50403/vdb_exp_file_Q4; write: true; flags: OpenFlags: 0x00000000 OtherFlags: 0x00000000
+16:26:19.922 16:26:19.921 Started 1 Workload Generator threads.
+16:26:19.951 16:26:19.950 Started  2 i/o threads for s1
+16:26:19.951 16:26:19.950 Started a total of  2 i/o threads.
+16:26:19.951 16:26:19.951 Waiting for task synchronization
+16:26:19.951 16:26:19.951 task_wait_start_complete: IO_task /home/amiration/Bureau/MASTER_2_CHPS/Bloc2/EP_Evaluation_performances/TD_EP/TP4/vdbench50403/vdb_exp_file_Q4 1
+16:26:20.151 16:26:20.151 Requesting full garbage collection
+16:26:20.152 16:26:20.152 GcTracker: cum:   0 intv:  0 ms:       0 mss:  0,00% Heap_MB max:   911 curr:   252 used:   153 free:    99 
+16:26:20.199 16:26:20.198 GcTracker: cum:   2 intv:  2 ms:      45 mss:  0,00% Heap_MB max:   911 curr:   252 used:    15 free:   237 
+16:26:20.199 16:26:20.198 task_wait_start_complete() end
+
+<a name="_1691931598"></a><i><b>16:26:21.005 Starting RD=SD_format; I/O rate: Uncontrolled MAX; elapsed=(none); For loops: threads=2 iorate=max</b></i>
+
+16:26:21.009 16:26:21.009 task_run_all(): 3 tasks
+16:26:59.719 16:26:59.718 Reached eof in wg_task
+16:27:03.563 16:27:03.563 All sequential runs reached EOF; Workload generation completed.
+16:27:08.267 16:27:08.267 Sent 2/2 interrupts to waiting IO_task threads
+16:27:08.268 16:27:08.268 Java Heap in MB. max:  910,500; current:  252,000; used:   21,733; free:  230,267
+16:27:08.268 16:27:08.268 Maximum native memory allocation:      524 288; Current allocation:            0
+16:27:08.268 16:27:08.268 End of run
+16:27:08.268 16:27:08.268 **********
+16:27:08.268 
+16:27:08.268 
+16:27:08.461 16:27:08.461 Beginning of run setup
+16:27:08.461 16:27:08.461 **********************
+16:27:08.461 
+16:27:08.461 
+16:27:08.461 16:27:08.461 Opening sd=s1,lun=/home/amiration/Bureau/MASTER_2_CHPS/Bloc2/EP_Evaluation_performances/TD_EP/TP4/vdbench50403/vdb_exp_file_Q4; write: true; flags: OpenFlags: 0x00000000 OtherFlags: 0x00000000
+16:27:09.765 16:27:08.464 Started 1 Workload Generator threads.
+16:27:09.801 16:27:09.800 Started  1 i/o threads for s1
+16:27:09.805 16:27:09.801 Started a total of  1 i/o threads.
+16:27:09.805 16:27:09.805 Waiting for task synchronization
+16:27:09.805 16:27:09.805 Requesting full garbage collection
+16:27:09.806 16:27:09.806 GcTracker: cum:   2 intv:  0 ms:       0 mss:  0,00% Heap_MB max:   911 curr:   252 used:    24 free:   228 
+16:27:09.827 16:27:09.827 GcTracker: cum:   4 intv:  2 ms:      19 mss:  0,00% Heap_MB max:   911 curr:   252 used:    14 free:   238 
+16:27:09.828 16:27:09.827 task_wait_start_complete() end
+
+<a name="_1463397659"></a><i><b>16:27:10.000 Starting RD=r1; I/O rate: Uncontrolled MAX; elapsed=30; For loops: xfersize=128k threads=1</b></i>
+
+16:27:10.001 16:27:10.001 task_run_all(): 2 tasks
+16:27:40.283 16:27:40.283 Interrupts issued for tasks WG_task: 2
+16:27:40.284 16:27:40.283 Sent 1/1 interrupts to waiting IO_task threads
+16:27:40.284 16:27:40.284 Java Heap in MB. max:  910,500; current:  252,000; used:   17,070; free:  234,930
+16:27:40.284 16:27:40.284 Maximum native memory allocation:      262 144; Current allocation:            0
+16:27:40.284 16:27:40.284 End of run
+16:27:40.284 16:27:40.284 **********
+16:27:40.284 
+16:27:40.284 
+16:27:40.396 16:27:40.396 Beginning of run setup
+16:27:40.396 16:27:40.396 **********************
+16:27:40.396 
+16:27:40.396 
+16:27:40.397 16:27:40.396 Opening sd=s1,lun=/home/amiration/Bureau/MASTER_2_CHPS/Bloc2/EP_Evaluation_performances/TD_EP/TP4/vdbench50403/vdb_exp_file_Q4; write: true; flags: OpenFlags: 0x00000000 OtherFlags: 0x00000000
+16:27:40.400 16:27:40.400 Started 1 Workload Generator threads.
+16:27:40.415 16:27:40.415 Started  2 i/o threads for s1
+16:27:40.416 16:27:40.415 Started a total of  2 i/o threads.
+16:27:40.416 16:27:40.415 Waiting for task synchronization
+16:27:40.416 16:27:40.415 task_wait_start_complete: IO_task /home/amiration/Bureau/MASTER_2_CHPS/Bloc2/EP_Evaluation_performances/TD_EP/TP4/vdbench50403/vdb_exp_file_Q4 1
+16:27:40.616 16:27:40.616 Requesting full garbage collection
+16:27:40.616 16:27:40.616 GcTracker: cum:   4 intv:  0 ms:       0 mss:  0,00% Heap_MB max:   911 curr:   252 used:    19 free:   233 
+16:27:40.637 16:27:40.637 GcTracker: cum:   6 intv:  2 ms:      18 mss:  0,00% Heap_MB max:   911 curr:   252 used:    14 free:   238 
+16:27:40.637 16:27:40.637 task_wait_start_complete() end
+
+<a name="_194245722"></a><i><b>16:27:41.001 Starting RD=r1; I/O rate: Uncontrolled MAX; elapsed=30; For loops: xfersize=128k threads=2</b></i>
+
+16:27:41.002 16:27:41.002 task_run_all(): 3 tasks
+16:28:11.279 16:28:11.279 Interrupts issued for tasks WG_task: 2
+16:28:11.280 16:28:11.279 Sent 2/2 interrupts to waiting IO_task threads
+16:28:11.280 16:28:11.280 Java Heap in MB. max:  910,500; current:  252,000; used:   17,528; free:  234,472
+16:28:11.281 16:28:11.281 Maximum native memory allocation:      524 288; Current allocation:            0
+16:28:11.281 16:28:11.281 End of run
+16:28:11.281 16:28:11.281 **********
+16:28:11.281 
+16:28:11.281 
+16:28:11.380 16:28:11.379 Beginning of run setup
+16:28:11.380 16:28:11.380 **********************
+16:28:11.380 
+16:28:11.380 
+16:28:11.380 16:28:11.380 Opening sd=s1,lun=/home/amiration/Bureau/MASTER_2_CHPS/Bloc2/EP_Evaluation_performances/TD_EP/TP4/vdbench50403/vdb_exp_file_Q4; write: true; flags: OpenFlags: 0x00000000 OtherFlags: 0x00000000
+16:28:11.384 16:28:11.384 Started 1 Workload Generator threads.
+16:28:11.400 16:28:11.400 Started  3 i/o threads for s1
+16:28:11.401 16:28:11.401 Started a total of  3 i/o threads.
+16:28:11.401 16:28:11.401 Waiting for task synchronization
+16:28:11.401 16:28:11.401 Requesting full garbage collection
+16:28:11.402 16:28:11.402 GcTracker: cum:   6 intv:  0 ms:       0 mss:  0,00% Heap_MB max:   911 curr:   252 used:    20 free:   232 
+16:28:11.419 16:28:11.419 GcTracker: cum:   8 intv:  2 ms:      16 mss:  0,00% Heap_MB max:   911 curr:   252 used:    14 free:   238 
+16:28:11.419 16:28:11.419 task_wait_start_complete() end
+
+<a name="_512706214"></a><i><b>16:28:12.001 Starting RD=r1; I/O rate: Uncontrolled MAX; elapsed=30; For loops: xfersize=128k threads=3</b></i>
+
+16:28:12.004 16:28:12.003 task_run_all(): 4 tasks
+16:28:42.183 16:28:42.183 Sent 3/3 interrupts to waiting IO_task threads
+16:28:42.184 16:28:42.183 Java Heap in MB. max:  910,500; current:  252,000; used:   17,759; free:  234,241
+16:28:42.184 16:28:42.184 Maximum native memory allocation:      786 432; Current allocation:            0
+16:28:42.184 16:28:42.184 End of run
+16:28:42.184 16:28:42.184 **********
+16:28:42.184 
+16:28:42.184 
+16:28:42.282 16:28:42.282 Beginning of run setup
+16:28:42.282 16:28:42.282 **********************
+16:28:42.282 
+16:28:42.282 
+16:28:42.282 16:28:42.282 Opening sd=s1,lun=/home/amiration/Bureau/MASTER_2_CHPS/Bloc2/EP_Evaluation_performances/TD_EP/TP4/vdbench50403/vdb_exp_file_Q4; write: true; flags: OpenFlags: 0x00000000 OtherFlags: 0x00000000
+16:28:42.286 16:28:42.286 Started 1 Workload Generator threads.
+16:28:42.302 16:28:42.302 Started  4 i/o threads for s1
+16:28:42.302 16:28:42.302 Started a total of  4 i/o threads.
+16:28:42.302 16:28:42.302 Waiting for task synchronization
+16:28:42.303 16:28:42.302 task_wait_start_complete: IO_task /home/amiration/Bureau/MASTER_2_CHPS/Bloc2/EP_Evaluation_performances/TD_EP/TP4/vdbench50403/vdb_exp_file_Q4 1
+16:28:42.503 16:28:42.503 Requesting full garbage collection
+16:28:42.504 16:28:42.504 GcTracker: cum:   8 intv:  0 ms:       0 mss:  0,00% Heap_MB max:   911 curr:   252 used:    20 free:   232 
+16:28:42.529 16:28:42.529 GcTracker: cum:  10 intv:  2 ms:      24 mss:  0,00% Heap_MB max:   911 curr:   252 used:    14 free:   238 
+16:28:42.530 16:28:42.529 task_wait_start_complete() end
+
+<a name="_1348946934"></a><i><b>16:28:43.000 Starting RD=r1; I/O rate: Uncontrolled MAX; elapsed=30; For loops: xfersize=128k threads=4</b></i>
+
+16:28:43.001 16:28:43.001 task_run_all(): 5 tasks
+16:29:13.179 16:29:13.179 Sent 4/4 interrupts to waiting IO_task threads
+16:29:13.180 16:29:13.179 Java Heap in MB. max:  910,500; current:  252,000; used:   19,081; free:  232,919
+16:29:13.180 16:29:13.180 Maximum native memory allocation:    1 048 576; Current allocation:            0
+16:29:13.180 16:29:13.180 End of run
+16:29:13.180 16:29:13.180 **********
+16:29:13.180 
+16:29:13.180 
+16:29:13.733 16:29:13.733 Java Heap in MB. max:  910,500; current:  252,000; used:   19,081; free:  232,919

@@ -1,0 +1,3 @@
+sd=s1,lun=/home/max/CHPS/EDP/TDs_EDP/TD4/vdb_exp_file_Q4,size=3G
+wd=w1,sd=s1,rdpct=100,seekpct=100
+rd=r1,wd=w1,iorate=max,xfersize=128k,forthreads=(1-4,1),elapsed=30,interval=1
