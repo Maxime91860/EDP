@@ -1,6 +1,6 @@
 set encoding iso_8859_1
 set terminal postscript eps color enhanced 16
-set output "PLOT/tps_resp_moyen.pdf"
+set output "PLOT/tps_resp_moyen.eps"
 set title "Temps de r\351ponse moyen pour chaque ex\351cution"
 set xlabel "Ex\351cution"
 set ylabel "Temps de r\351ponse moyen en seconde (resp time)"
@@ -13,4 +13,5 @@ set boxwidth 0.50 relative
 set style fill transparent solid 0.5 noborde
 set key left above
 set grid
+set xtics ("4k" 1, "8k" 2,"16k" 3,"32k" 4, "64k" 5, "128k" 6, "256k" 7,"512k" 8, "1M" 9)
 plot "RESULTATS/tps_resp_stats.txt" using 1:2 with boxes lc "blue" notitle

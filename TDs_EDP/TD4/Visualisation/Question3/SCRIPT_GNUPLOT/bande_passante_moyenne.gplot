@@ -1,6 +1,6 @@
 set encoding iso_8859_1
 set terminal postscript eps color enhanced 16
-set output "PLOT/bande_passante_moyenne.pdf"
+set output "PLOT/bande_passante_moyenne.eps"
 set title "Bande passante moyenne pour chaque ex\351cution"
 set xlabel "Ex\351cution"
 set ylabel "Bande passante moyenne en MB / seconde (resp time)"
