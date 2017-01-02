@@ -5,7 +5,7 @@ all : SCRIPT_GNUPLOT/tps_resp_moyen.pdf SCRIPT_GNUPLOT/bande_passante_moyenne.pd
 	gnuplot $<
 
 visu : 
-	evince PLOT/*.pdf
+	evince PLOT/*
 
 test :
 	gnuplot histogramme.gplot
@@ -19,4 +19,4 @@ clean_stats :
 	rm -rf RESULTATS/* 
 
 clean :
-	rm -rf PLOT/*.pdf
+	rm -rf PLOT/*

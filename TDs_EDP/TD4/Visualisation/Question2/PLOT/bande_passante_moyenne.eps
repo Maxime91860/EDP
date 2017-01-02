@@ -1,7 +1,7 @@
 %!PS-Adobe-2.0 EPSF-2.0
 %%Title: PLOT/bande_passante_moyenne.eps
-%%Creator: gnuplot 4.6 patchlevel 6
-%%CreationDate: Sun Jan  1 18:13:55 2017
+%%Creator: gnuplot 4.6 patchlevel 4
+%%CreationDate: Mon Jan  2 15:00:59 2017
 %%DocumentFonts: (atend)
 %%BoundingBox: 50 50 410 302
 %%EndComments
@@ -501,11 +501,11 @@ systemdict /pdfmark known not {
 SDict begin [
   /Title (PLOT/bande_passante_moyenne.eps)
   /Subject (gnuplot plot)
-  /Creator (gnuplot 4.6 patchlevel 6)
-  /Author (amiration)
+  /Creator (gnuplot 4.6 patchlevel 4)
+  /Author (max)
 %  /Producer (gnuplot)
 %  /Keywords ()
-  /CreationDate (Sun Jan  1 18:13:55 2017)
+  /CreationDate (Mon Jan  2 15:00:59 2017)
   /DOCINFO pdfmark
 end
 } ifelse
@@ -821,17 +821,17 @@ Z stroke
 LCb setrgbcolor
 128 2455 M
 currentpoint gsave translate -270 rotate 0 0 moveto
-[ [(Helvetica) 160.0 0.0 true true 0 (Bande passante moyenne en MB / seconde \(resp time\))]
+[ [(Helvetica) 160.0 0.0 true true 0 (Bande passante moyenne en MB / seconde)]
 ] -53.3 MCshow
 grestore
 LTb
 LCb setrgbcolor
 3895 112 M
-[ [(Helvetica) 160.0 0.0 true true 0 (Exécution)]
+[ [(Helvetica) 160.0 0.0 true true 0 (Pourcentage lecture - Pourcentage écriture)]
 ] -53.3 MCshow
 LTb
 3895 4639 M
-[ [(Helvetica) 160.0 0.0 true true 0 (Bande passante moyenne pour chaque exécution)]
+[ [(Helvetica) 160.0 0.0 true true 0 (Bande passante moyenne en fonction du pourcentage de lecture - écriture)]
 ] -53.3 MCshow
 1.000 UP
 1.000 UL
@@ -840,7 +840,8 @@ LCb setrgbcolor
 % Begin plot #1
 1.000 UL
 LT0
-0.00 1.00 0.00 C 0.500 1182 512 604 3855 BoxColFill
+LCa setrgbcolor
+0.500 1182 512 604 3855 BoxColFill
 0.500 2388 512 604 149 BoxColFill
 0.500 3594 512 604 73 BoxColFill
 0.500 4800 512 604 55 BoxColFill
