@@ -10,8 +10,8 @@ set xtics 1
 #set yrange [0:0.6]
 #set logscale y
 set boxwidth 0.50 relative
-set style fill transparent solid 0.5 noborde
+set style fill transparent solid 0.80 noborde
 set key left above
 set grid
 set xtics ("100 - 0" 1, "67 - 33" 2, "50 - 50" 3, "33 - 67" 4, "0 - 100" 5)
-plot "RESULTATS/tps_resp_stats.txt" using 1:2 with boxes lc "blue" notitle
+plot "RESULTATS/tps_resp_stats.txt" using 1:2 with boxes lc rgb "blue" notitle

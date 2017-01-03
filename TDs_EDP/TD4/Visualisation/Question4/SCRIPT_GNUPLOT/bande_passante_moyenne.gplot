@@ -10,7 +10,7 @@ set xtics 1
 #set yrange [0:0.6]
 #set logscale y
 set boxwidth 0.50 relative
-set style fill transparent solid 0.5 noborde
+set style fill transparent solid 0.8 noborde
 set key left above
 set grid
-plot "RESULTATS/bande_pass_stats.txt" using 1:2 with boxes lc "green" notitle
+plot "RESULTATS/bande_pass_stats.txt" using 1:2 with boxes lc rgb "red" notitle

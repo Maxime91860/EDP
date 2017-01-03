@@ -8,8 +8,8 @@ visu :
 	evince PLOT/*
 
 stats :
-	R CMD BATCH SCRIPT_R/script_tps_reponse.R
-	rm -rf script_tps_reponse.Rout
+	R CMD BATCH SCRIPT_R/script_stats.R
+	rm -rf script_stats.Rout
 
 clean_stats : 
 	rm -rf RESULTATS/* 
